@@ -1,6 +1,6 @@
 
 import { Link, Route, Routes, json, useLoaderData } from 'react-router-dom'
-import "./app.css";
+import "./app.css"; 
 
 // Auto generates routes from files under ./pages
 // https://vitejs.dev/guide/features.html#glob-import
@@ -13,7 +13,7 @@ const routes = Object.keys(pages).map((path) => {
           path: name === 'Home' ? '/' : `/${name.toLowerCase()}`,            
           component: pages[path].default,                  
          }                                      }
-                            
+                               
                                      ) 
 
 const index = routes.findIndex((route) => route.name == "Home");
