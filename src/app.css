@@ -1,0 +1,11 @@
+
+:root { --primary: #1aac83; --error: #e7195a;
+      }
+.strClass {color:red; background-color:yellow;}
+.strClass2 {color: green; background-color:blue;}
+
+
+/* conditional classes. see CreateWorkoutForm   input */
+input.error{border: 1px solid var(--error); color:green;}
+
+

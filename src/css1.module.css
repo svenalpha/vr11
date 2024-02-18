@@ -1,0 +1,10 @@
+
+:root {--primary: #1aac83; --error: #e7195a; --backgr: brown;}
+
+
+.module_StrClass {color: purple; background-color: cyan;}
+
+.module_StrClass1 {background-color: red;}
+
+.module_StrClass2 {font-size: 18px; color: white; background-color: var(--backgr);}
+
