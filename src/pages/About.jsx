@@ -2,13 +2,13 @@ import { Link, Route, Routes } from 'react-router-dom'
 import { json } from "react-router-dom";
 import { addAndMultiply } from '../add'
 import { multiplyAndAdd } from '../multiply'
-import "../app.css";
+import "../app.css"; 
 import "../App.jsx";
 import {module_StrClass,
         module_StrClass1,module_StrClass2}  from "../css1.module.css";
 import React, { useState, useEffect} from "react";
 import axios from "axios";
-//import { Link, Route, Routes } from 'react-router-dom';
+//import { Link, Route, Routes } from 'react-router-dom';    
 
 
 export default function About() {
