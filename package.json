@@ -2,7 +2,7 @@
     "name": "vr11",
     "private": true,
     "version": "0.0.0",
-    "proxy":"http://localhost:5173/",
+    "proxy": "http://localhost:5173/",
     "type": "module",
     "scripts": {
         "dev": "node server",
@@ -15,6 +15,7 @@
         "debug": "node --inspect-brk server"
     },
     "dependencies": {
+        "@vitejs/plugin-react": "^4.0.4",
         "axios": "^1.6.7",
         "compression": "^1.7.4",
         "dotenv": "^16.3.1",
@@ -23,11 +24,7 @@
         "react": "^18.2.0",
         "react-dom": "^18.2.0",
         "react-router-dom": "^6.14.2",
-        "@vitejs/plugin-react": "^4.0.4",
-        "serve-static": "^1.15.0"
-
-    },
-    "devDependencies": {
-
+        "serve-static": "^1.15.0",
+        "vite": "^5.1.3"
     }
 }
