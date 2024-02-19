@@ -446,6 +446,7 @@ const __vite_glob_0_4 = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.def
 function Home$1() {
   return /* @__PURE__ */ jsxs(Fragment, { children: [
     /* @__PURE__ */ jsx("h1", { children: "Home" }),
+    /* @__PURE__ */ jsx("h2", { children: "a11/vr11    ver. 03  16.28   19/02/2024   " }),
     /* @__PURE__ */ jsx("div", { children: addAndMultiply(1, 2, 3) }),
     /* @__PURE__ */ jsx("div", { children: multiplyAndAdd(1, 2, 3) })
   ] });
