@@ -59,7 +59,10 @@ export async function createServer(
   const indexProd = isProd
      ? fs.readFileSync(resolve('dist/client/index.html'), 'utf-8')
      : ''
-       
+app.get("/api/v1",(req,res) =>{
+        res.send("hello world via proxyyyyyyyy ");
+
+});       
 app.get('/userz', (req,res) =>
   {res.send([{
      id: 1,
